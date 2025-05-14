@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XTh.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XThSlanted.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XThSuSlanted.ttf') format('truetype');
+    font-weight: 100;
+    font-style: oblique;
+  }
+  
+  /* ExtraBold */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XBd.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XBdSlanted.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-XBdSuSlanted.ttf') format('truetype');
+    font-weight: 800;
+    font-style: oblique;
+  }
+  
+  /* Thin */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Th.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-ThSlanted.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-ThSuSlanted.ttf') format('truetype');
+    font-weight: 200;
+    font-style: oblique;
+  }
+  
+  /* Regular */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Rg.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-RgSlanted.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-RgSuSlanted.ttf') format('truetype');
+    font-weight: 400;
+    font-style: oblique;
+  }
+  
+  /* Medium */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-MdSlanted.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-MdSuSlanted.ttf') format('truetype');
+    font-weight: 500;
+    font-style: oblique;
+  }
+  
+  /* Light */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Lt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-LtSlanted.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-LtSuSlanted.ttf') format('truetype');
+    font-weight: 300;
+    font-style: oblique;
+  }
+  
+  /* Hairline */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Hl.ttf') format('truetype');
+    font-weight: 50;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-HlSlanted.ttf') format('truetype');
+    font-weight: 50;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-HlSuSlanted.ttf') format('truetype');
+    font-weight: 50;
+    font-style: oblique;
+  }
+  
+  /* Black */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Blk.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-BlkSlanted.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-BlkSuSlanted.ttf') format('truetype');
+    font-weight: 900;
+    font-style: oblique;
+  }
+  
+  /* Bold */
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-Bd.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-BdSlanted.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'HalvarBreit';
+    src: url('/fonts/HalvarBreit/HalvarBreit-BdSuSlanted.ttf') format('truetype');
+    font-weight: 700;
+    font-style: oblique;
+  }
