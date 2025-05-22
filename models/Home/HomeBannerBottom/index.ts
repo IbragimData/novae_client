@@ -1,0 +1,1 @@
+export { HomeBannerBottom } from "./HomeBannerBottom"

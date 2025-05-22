@@ -1,4 +1,4 @@
-import { Header } from "@/models";
+import { Footer, Header } from "@/models";
 import "./globals.css";
 import "../styles/fonts.css"
 
@@ -11,7 +11,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        {children}
+        <main>
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );

@@ -1,0 +1,59 @@
+.HomeBannerBottom {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    &__title {
+        position: absolute;
+        z-index: 1;
+        color: #fff;
+        color: #FFF;
+        font-family: "Halvar Breitschrift";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: auto;
+    }
+
+    &__text {
+        position: absolute;
+        z-index: 1;
+        bottom: 60px;
+        left: 60px;
+        color: #FFF;
+
+        font-family: "Halvar Breitschrift";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        max-width: 550px;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .HomeBannerBottom {
+        &__title {
+            font-size: 30px;
+        }
+
+        &__text {
+            display: none;
+        }
+    }
+}

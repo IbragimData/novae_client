@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import s from './Header.module.scss';
@@ -15,12 +15,18 @@ export const Header = () => {
         setNavOpen(!navOpen);
     };
 
+    useEffect(() => {
+        document.body.style.overflow = navOpen ? 'hidden' : 'auto';
+        return () => {
+            document.body.style.overflow = 'auto';
+        };
+    }, [navOpen]);
+
     return (
         <header className={s.header}>
             <Link className={s.header__logo} href="/">
                 <span>I.NOVAE</span>
             </Link>
-
 
             <div className={classNames(s.header__nav, {
                 [s.header__nav_active]: navOpen,

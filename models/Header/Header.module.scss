@@ -6,6 +6,7 @@
     height: 80px;
     padding: 0 60px;
     background-color: #fff;
+    z-index: 999;
 
     &__logo {
         color: #2D2D2D;
@@ -84,6 +85,7 @@
     }
 
     &__nav {
+        z-index: 999;
         width: 100%;
         position: fixed;
         height: calc(100vh - 80px);

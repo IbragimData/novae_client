@@ -3,7 +3,7 @@ export const linkData = [
       id: 1,
       title: "Главная",
       href: "/",
-      ariaLabel: "Перейти на главную страницу", // Для доступности
+      ariaLabel: "Перейти на главную страницу",
       rel: "home",
     },
     {
