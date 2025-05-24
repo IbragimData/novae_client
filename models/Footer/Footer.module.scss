@@ -27,6 +27,9 @@
         font-style: normal;
         font-weight: 500;
         line-height: normal;
+        text-decoration: none;
+
+        cursor: pointer;
     }
 
     &__link {
@@ -38,6 +41,7 @@
         font-weight: 500;
         line-height: normal;
         text-decoration: none;
+        cursor: pointer;
     }
 
     &__social {
@@ -54,6 +58,7 @@
             font-weight: 500;
             line-height: normal;
             text-decoration: none;
+            cursor: pointer;
         }
     }
 }

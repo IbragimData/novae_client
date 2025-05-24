@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: default;
 }
 
 body,
@@ -16,4 +17,8 @@ main{
   
 .is-visible & {
   animation-play-state: running;
+}
+::selection {
+  background-color: #000;
+  color: #fff;
 }

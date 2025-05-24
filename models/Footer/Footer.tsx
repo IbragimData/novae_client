@@ -5,7 +5,7 @@ export function Footer() {
     return (
         <div className={s.Footer}>
             <div className={s.Footer__content}>
-                <h1 className={s.Footer__logo}>I.NOVAE</h1>
+                <Link href="/" className={s.Footer__logo}>I.NOVAE</Link>
                 <ul className={s.Footer__list}>
                     {linkData.map((i) => (
                         <li key={i.id}>

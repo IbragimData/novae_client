@@ -1,0 +1,1 @@
+export {AboutBannerBottom} from "./AboutBannerBottom"
