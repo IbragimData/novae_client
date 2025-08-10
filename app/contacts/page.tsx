@@ -1,5 +1,9 @@
+import { ContactBlock } from "@/models";
+
 export default function Page() {
     return (
-        <div></div>
+        <div>
+            <ContactBlock />
+        </div>
     );
 }
